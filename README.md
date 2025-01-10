@@ -1,25 +1,25 @@
-## Магма Шифр на C#
-Этот репозиторий содержит реализацию алгоритма шифрования Магма на языке C#. Алгоритм Магма является частью семейства блочных шифров, используемых в России для целей шифрования. Проект реализует функции шифрования и расшифровки, включая режимы гаммирования с обратной связью.
-## Особенности
-- **Шифрование**: Реализовано шифрование Магма в режиме CBC (Цепочка блоков шифрования) и с обратной связью.
-- **Расшифровка**: Поддерживает расшифровку текста, зашифрованного по алгоритму Магма.
-- **Поддержка блоков по 16 байт**: Все операции шифрования/расшифровки используют блоки размером 128 бит.
-- **GOST 34.12-2015**: Реализован криптографический стандарт ГОСТ для шифра Магма.
+## Magma Cipher in C#
+This repository contains a C# implementation of the Magma encryption algorithm. The Magma algorithm is part of a family of block ciphers used in Russia for encryption purposes. The project implements encryption and decryption functions, including feedback gamming modes.
+## Peculiarities
+- **Encryption**: Magma encryption in CBC (Cipher Block Chaining) mode and with feedback is implemented.
+- **Decryption**: Supports decryption of text encrypted using the Magma algorithm.
+- **16-byte block support**: All encryption/decryption operations use 128-bit blocks.
+- **GOST 34.12-2015**: The GOST cryptographic standard for the Magma cipher is implemented.
 
-## Использование
-После запуска программы вы можете выбрать один из пунктов меню и протестировать программу. Разработка и тестирование программы проходило по ГОСТ-у 32.12-2015, который также будет прикреплён.
+## Usage
+After starting the program, you can select one of the menu items and test the program. The program was developed and tested according to GOST 32.12-2015, which will also be attached.
 
-### Как собрать проект
-1. Клонируйте репозиторий:
-   ```bash
-   git clone https://github.com/Ju7ugum/MagmaCipher.git
+### How to build the project
+1. Clone the repository:
+```bash
+git clone https://github.com/Ju7ugum/MagmaCipher.git
 
-    Откройте решение в Visual Studio 2022.
-    Соберите проект для компиляции исполнимого файла.
-### Файлы
-    Magma.cs: Содержит основную логику для шифрования и расшифровки.
-    Program.cs: Главная точка входа для запуска приложения.
-    .gitignore: Стандартный файл игнорирования для Git.
-    MagmaS.sln: Файл решения для Visual Studio.
+Open the solution in Visual Studio 2022.
+Build the project to compile the executable.
+### Files
+Magma.cs: Contains the main logic for encryption and decryption.
+Program.cs: The main entry point for running the application.
+.gitignore: The default ignore file for Git.
+MagmaS.sln: The solution file for Visual Studio.
 
-Разработано Ju7ugum.
+Developed by Ju7ugum.
